@@ -1,0 +1,78 @@
+
+
+/* ---------------------   Main styles -----------------------*/  
+body
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 2000px;
+}
+.redColor
+{
+    color: #ec1c23 !important; 
+}
+
+/* ----------------------------------------   Start Upper Bar  -----------------------*/ 
+
+.upper
+{
+    background-color: #08526d;
+    color: #fff;
+    padding: 10px;
+}
+
+.upper i 
+{
+ 
+    display: block;
+    margin: 5px;
+}
+
+/* End Upper Bar */ 
+
+
+/* ------------------------------------  Nav Bar ------------------------------- */ 
+
+nav .navbar-brand span:first-child
+{
+   color: #08526d;
+   font-size: 30px; 
+   font-weight: bold;
+}
+nav .navbar-brand span:last-child
+{
+    color: #ec1c23;
+   
+    margin-left: -5px;
+    font-size: 25px;
+}
+.navbar-nav .nav-link
+{
+    font-size: 18px;
+    margin: 5px;
+}
+
+
+/* ------------------------------------  Slider------------------------------- */ 
+
+
+.slider .carousal-one
+{
+    background-image: url(../images/s1.jpg); 
+    background-size: cover;
+}
+.slider .carousal-two
+{
+    background-image: url(../images/s2.jpg); 
+    background-size: cover;
+}
+.slider .carousal-three
+{
+    background-image: url(../images/s3.jpg); 
+    background-size: cover;
+}
+
+.slider .carousel-indicators li 
+{
+    height: 7px;
+    background-color: #08526d;
+}
